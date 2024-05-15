@@ -5,3 +5,10 @@ C:\Users\gabri\source\repos\aplicativoBanco\aplicativoBanco\obj\Debug\aplicativo
 C:\Users\gabri\source\repos\aplicativoBanco\aplicativoBanco\obj\Debug\aplicativoBanco.csproj.CoreCompileInputs.cache
 C:\Users\gabri\source\repos\aplicativoBanco\aplicativoBanco\obj\Debug\aplicativoBanco.exe
 C:\Users\gabri\source\repos\aplicativoBanco\aplicativoBanco\obj\Debug\aplicativoBanco.pdb
+C:\Users\Tecnico\Desktop\Banco\Banco\bin\Debug\aplicativoBanco.exe.config
+C:\Users\Tecnico\Desktop\Banco\Banco\bin\Debug\aplicativoBanco.exe
+C:\Users\Tecnico\Desktop\Banco\Banco\bin\Debug\aplicativoBanco.pdb
+C:\Users\Tecnico\Desktop\Banco\Banco\obj\Debug\aplicativoBanco.csproj.AssemblyReference.cache
+C:\Users\Tecnico\Desktop\Banco\Banco\obj\Debug\aplicativoBanco.csproj.CoreCompileInputs.cache
+C:\Users\Tecnico\Desktop\Banco\Banco\obj\Debug\aplicativoBanco.exe
+C:\Users\Tecnico\Desktop\Banco\Banco\obj\Debug\aplicativoBanco.pdb

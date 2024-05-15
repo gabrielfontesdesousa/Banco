@@ -11,7 +11,6 @@ namespace aplicativoBanco
 {
     internal class Cliente
     {
-        bool repetir  = false;
 
         public int _idCliente;
         private static List<int> idsCadastrados = new List<int>();
@@ -32,7 +31,6 @@ namespace aplicativoBanco
                     else
                     {
                         Console.WriteLine("Este ID é invalido, ou já está cadastrado. Por favor, escolha outro.");
-                        Environment.Exit(95768);
                     }
                 
                
@@ -51,6 +49,7 @@ namespace aplicativoBanco
             }
             set
             {
+                
                 if (!string.IsNullOrEmpty(value) && !value.Any(char.IsDigit))
                 {
                     _Nome = value;
@@ -148,17 +147,10 @@ namespace aplicativoBanco
                 }
             }
         }
-         
-
-
+     
         public void ConsultarCliente()
         {
 
         }
-
-
-
-
-
     }
 }
