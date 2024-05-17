@@ -9,9 +9,11 @@ using System.Threading.Tasks;
 
 namespace aplicativoBanco
 {
-    internal class Cliente
+    public class Cliente
     {
 
+
+   
         public int _idCliente;
         private static List<int> idsCadastrados = new List<int>();
         public int idCliente
@@ -120,12 +122,13 @@ namespace aplicativoBanco
         }
 
 
-        public void CadastrarCliente()
+        public void CadastrarCliente(string nome)
         {
-            Console.WriteLine("Digite um id único para associar ao cliente: ");
+            Console.WriteLine("\nDigite um id único para associar ao cliente: ");
             idCliente = int.Parse(Console.ReadLine());
             Console.WriteLine("\nDigite seu nome: ");
-            Nome = Console.ReadLine();
+            nome = Console.ReadLine();
+            Cliente p1 = new Cliente;
             Console.WriteLine("\nDigite seu CPF: ");
             Cpf = Console.ReadLine();
             Console.WriteLine("\nDigite seu RG: ");
@@ -146,11 +149,12 @@ namespace aplicativoBanco
                     Console.WriteLine("\nFormato de data inválido. Tente novamente.");
                 }
             }
+
         }
      
         public void ConsultarCliente()
         {
-
+            Console.WriteLine($"\nClientes\n {Nome}\n {Cpf}\n {Rg}\n{Nascimento}");
         }
     }
 }

@@ -11,40 +11,30 @@ namespace aplicativoBanco
     {
         static void Main(string[] args)
         {
-            Cliente cliente = new Cliente();
+            Cliente cliente1 = new Cliente();
 
-            string opcao = 0;
+            char opcao = '0';
 
-            Console.WriteLine("""
-                    Bem vindo ao seu sistema de gerenciamento de bancos!
-                    
-                    Escolha oque deseja fazer:
-                    1 = Cadastrar cliente
-                    2 = Consultar cliente
-                    3 = Adicionar a fila
-                    4 = listar fila
-
-                    Digite "q" para sair.
-                    """);
-            while (opcao = "0")
+            Console.WriteLine("\nBem vindo ao seu sistema de gerenciamento de bancos!\n\nEscolha oque deseja fazer: \n1 = Cadastrar cliente\n2 = Consultar cliente\n3 = Adicionar a fila\n4 = listar fila\nDigite 'q' para sair.\n");
+            while (opcao != 'q')
             {
-                opcao = Console.ReadLine();
+                opcao = Console.ReadKey().KeyChar;
             
                 switch (opcao)
                 {
-                    case "1":
-                        cliente.CadastrarCliente();
+                    case '1':
+                        cliente1.CadastrarCliente();
                     break;
                     
-                    case "2":
+                    case '2':
+                        cliente1.ConsultarCliente();
+                    break;
+
+                    case '3':
 
                     break;
 
-                    case "3":
-
-                    break;
-
-                    case "4":
+                    case '4':
 
                     break;
 
@@ -53,6 +43,8 @@ namespace aplicativoBanco
                     break;
 
                 }
+                Console.WriteLine("Bem vindo ao seu sistema de gerenciamento de bancos!\n\nEscolha oque deseja fazer: \n1 = Cadastrar cliente\n2 = Consultar cliente\n3 = Adicionar a fila\n4 = listar fila\nDigite 'q' para sair.");
+
             }
 
 
