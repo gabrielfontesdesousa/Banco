@@ -12,3 +12,10 @@ C:\Users\Tecnico\Desktop\Banco\Banco\obj\Debug\aplicativoBanco.csproj.AssemblyRe
 C:\Users\Tecnico\Desktop\Banco\Banco\obj\Debug\aplicativoBanco.csproj.CoreCompileInputs.cache
 C:\Users\Tecnico\Desktop\Banco\Banco\obj\Debug\aplicativoBanco.exe
 C:\Users\Tecnico\Desktop\Banco\Banco\obj\Debug\aplicativoBanco.pdb
+C:\CURSO ETEC\segundo modulo\Banco\Banco\obj\Debug\aplicativoBanco.csproj.AssemblyReference.cache
+C:\CURSO ETEC\segundo modulo\Banco\Banco\obj\Debug\aplicativoBanco.csproj.CoreCompileInputs.cache
+C:\CURSO ETEC\segundo modulo\Banco\Banco\obj\Debug\aplicativoBanco.exe
+C:\CURSO ETEC\segundo modulo\Banco\Banco\obj\Debug\aplicativoBanco.pdb
+C:\CURSO ETEC\segundo modulo\Banco\Banco\bin\Debug\aplicativoBanco.exe.config
+C:\CURSO ETEC\segundo modulo\Banco\Banco\bin\Debug\aplicativoBanco.exe
+C:\CURSO ETEC\segundo modulo\Banco\Banco\bin\Debug\aplicativoBanco.pdb
